@@ -1,0 +1,57 @@
+[
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include main.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/main.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include json_parser.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/json_parser.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include modelling_worker.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/modelling_worker.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include modelling_master.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/modelling_master.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include read_receiver.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/read_receiver.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include create_geometry.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/create_geometry.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include workload.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/workload.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include model.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/model.cpp"
+    },
+    {
+        "command": "c++ -c --dpcpp -fsycl -O3 -std=c++11 -qopenmp -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -O3 -std=c++11 -I/home/xcat_drbd_backup/xCATdrbd/opt_ohpc_pub/oneapi_basekit/mpi/2021.3.0/intel64/include check_stability.cpp",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/check_stability.cpp"
+    },
+    {
+        "command": "c++ -c  -lmpi -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -fopenmp gpu_modelling_kernels.cu",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/gpu_modelling_kernels.cu"
+    },
+    {
+        "command": "c++ -c  -lmpi -I/opt/ohpc/pub/intel/compilers_and_libraries_2017.7.259/linux/mpi/intel64/include -fopenmp gpumodelling.cu",
+        "directory": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu",
+        "file": "/home/om/HPC/oneAPI/CDAC/dpct/SeisAcoMod2D/src/src_gpu/gpumodelling.cu"
+    }
+]
